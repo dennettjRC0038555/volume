@@ -89,6 +89,8 @@
             this.cubeSide6InputSA = new System.Windows.Forms.TextBox();
             this.cubeInSideVOL = new System.Windows.Forms.Label();
             this.cubeSideInputVOL = new System.Windows.Forms.TextBox();
+            this.cylinderRadInputVOL = new System.Windows.Forms.TextBox();
+            this.cylinderHeightInputVOL = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.Sphere.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -310,6 +312,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.cylinderHeightInputVOL);
+            this.tabPage1.Controls.Add(this.cylinderRadInputVOL);
             this.tabPage1.Controls.Add(this.cylinderInHeightVOL);
             this.tabPage1.Controls.Add(this.cylinderInRadVOL);
             this.tabPage1.Controls.Add(this.cylinderHeightInputSA);
@@ -681,6 +685,20 @@
             this.cubeSideInputVOL.Size = new System.Drawing.Size(80, 20);
             this.cubeSideInputVOL.TabIndex = 21;
             // 
+            // cylinderRadInputVOL
+            // 
+            this.cylinderRadInputVOL.Location = new System.Drawing.Point(483, 160);
+            this.cylinderRadInputVOL.Name = "cylinderRadInputVOL";
+            this.cylinderRadInputVOL.Size = new System.Drawing.Size(100, 20);
+            this.cylinderRadInputVOL.TabIndex = 14;
+            // 
+            // cylinderHeightInputVOL
+            // 
+            this.cylinderHeightInputVOL.Location = new System.Drawing.Point(483, 179);
+            this.cylinderHeightInputVOL.Name = "cylinderHeightInputVOL";
+            this.cylinderHeightInputVOL.Size = new System.Drawing.Size(100, 20);
+            this.cylinderHeightInputVOL.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -774,6 +792,8 @@
         private System.Windows.Forms.Label cubeInSide3SA;
         private System.Windows.Forms.Label cubeInSide2SA;
         private System.Windows.Forms.Label cubeInSide1SA;
+        private System.Windows.Forms.TextBox cylinderHeightInputVOL;
+        private System.Windows.Forms.TextBox cylinderRadInputVOL;
     }
 }
 
